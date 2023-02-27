@@ -1,0 +1,43 @@
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* First line */
+#systems-expert {
+  width: 50%;
+  background-color: #890023;
+}
+
+#ml-expert {
+  width: calc(50% - 15%);
+  height: 75px;
+  background-color: #f37f1b;
+}
+
+/* Second line */
+#algo-expert {
+  width: 75%;
+  text-align: center;
+  background-color: #626ee3;
+}
+
+/* Third line */
+#frontend-expert {
+  width: 40%;
+  align-self: flex-end;
+  background-color: #11967e;
+}
+
+#programming-expert {
+  flex-grow: 1;
+  margin-left: 10px;
+  height: 75px;
+  background-color: #f21b3f;
+}
+
+/* Vertical spacing */
+.product {
+  margin-top: 24px;
+}
